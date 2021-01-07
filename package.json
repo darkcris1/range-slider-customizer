@@ -1,6 +1,6 @@
 {
   "name": "range-slider-customizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Customize your input range with javascript",
   "main": "range_slider.js",
   "browser": "range_slider.min.js",
