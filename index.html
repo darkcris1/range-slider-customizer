@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Range Slider Customizer</title>
+    <meta name="description" content="A simple input range slider customizer" />
+    <style>
+      input[type='range'] {
+        margin: 1rem 0;
+      }
+      .container {
+        width: 1200px;
+        max-width: 100%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="range" name="range" id="range" class="custom-slider" />
+
+      <input type="range" name="range" id="range" class="custom-slider2" />
+
+      <input type="range" name="range" id="range" class="custom-slider3" />
+      <input type="range" name="range" id="range" class="custom-slider4" />
+      <input type="range" name="range" id="range" class="custom-slider5" />
+    </div>
+
+    <script src="/range_slider.min.js"></script>
+    <script>
+      // s
+      range.create('.custom-slider')
+      range.create('.custom-slider2', {
+        trackColor: '#008a25',
+        progressColor: '#00d639',
+        height: '10px',
+        thumb: {
+          background: '#01cb37',
+          borderRadius: '0px',
+          height: '20px',
+          hover: {
+            boxShadow: '0 0 0 10px #00d6396b',
+          },
+        },
+      })
+      range.create('.custom-slider3', {
+        progressColor: 'red',
+        trackColor: 'green',
+        border: '1px solid black',
+        thumb: {
+          background: 'yellow',
+          border: '1px solid black',
+        },
+      })
+
+      range.create('.custom-slider4', {
+        progressColor: '#ff8f8f',
+        trackColor: 'red',
+        thumb: {
+          background: 'red',
+          hover: {
+            boxShadow: '0 0 0 20px #ff00006b',
+          },
+        },
+      })
+      range.create('.custom-slider5', {
+        progressColor: '#eeff52',
+        trackColor: '#e6ff00',
+        height: '10px',
+        border: '1px solid green',
+        thumb: {
+          background: '#8e9e00',
+          height: '40px',
+          borderRadius: '5px',
+          border: '1px solid green',
+          hover: {
+            boxShadow: '0 0 0 20px #eeff52c4',
+          },
+        },
+      })
+    </script>
+  </body>
+</html>
