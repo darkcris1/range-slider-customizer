@@ -9,6 +9,17 @@
     "slider",
     "customizer"
   ],
+  "scripts": {
+    "publish": "npm version patch && npm publish"
+  },
+  "files": [
+    "range_slider.js",
+    "range_slider.min.js"
+  ],
+  "repository": {
+    "url": "https://github.com/darkcris1/range-slider-customizer.git",
+    "type": "git"
+  },
   "author": "Cris Fandiño Jr. <sircnujnuj@gmail.com>",
   "license": "MIT"
 }
