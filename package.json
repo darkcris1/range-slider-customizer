@@ -1,0 +1,14 @@
+{
+  "name": "range-slider-customizer",
+  "version": "1.0.0",
+  "description": "Customize your input range with javascript",
+  "main": "range_slider.js",
+  "browser": "range_slider.min.js",
+  "keywords": [
+    "range",
+    "slider",
+    "customizer"
+  ],
+  "author": "Cris Fandiño Jr. <sircnujnuj@gmail.com>",
+  "license": "MIT"
+}
